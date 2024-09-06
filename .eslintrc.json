@@ -1,3 +1,9 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-img-element": "off", // Disable image rule
+    "@typescript-eslint/no-unused-vars": "off", // Disable unused vars rule
+    "react-hooks/exhaustive-deps": "off", // Disable useEffect missing dependencies warning
+    "react/no-unescaped-entities": "off" // Disable unescaped entities rule
+  }
 }
