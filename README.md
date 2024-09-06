@@ -2,6 +2,8 @@
 
 This is a Pokémon web application built using **Next.js**. It allows users to search for Pokémon, filter by type, view Pokémon details, and features lazy loading for a dynamic experience.
 
+The website is deployed in the following link: https://poke-api-next-js-alexbessedonato.vercel.app/
+
 ## Author
 
 - **Alex Besse Donato**
